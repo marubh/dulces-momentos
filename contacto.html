@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulces Momentos</title>
+    <link rel="icon" href="icono.ico">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Sacramento&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0733a95a61.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="mainContainer">    
+        <header>Dulces Momentos</header>
+
+        <nav class="navigation">
+                <a class="item" href="index.html" target="_self"> Inicio</a>  
+                <a class="item" href="productos.html" target="_self">Productos</a> 
+                <a class="item" href="servicios.html" target="_self">Servicios</a> 
+                <a class="item" href="donde.html"> Dónde encontrarnos</a>
+                <a class="item" href="contacto.html" target="_self">Consultas</a> 
+        </nav>
+
+        <section class="mainInfo">
+            <h1>Consultas</h1>
+            <p class="text">Si querés recibir mas información sobre nuestros servicios, pedir presupuesto para un evento, hacer un encargo o realizar cualquier otra consulta, rellená el formulario con tus datos y te contactaremos a la brevedad!</p>
+            <form class="form" action="link" method="POST">
+                <div class="box">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="box">
+                    <label for="surname">Apellido</label>
+                    <input type="text" id="surname" name="surname">
+                </div>
+                <div class="box">
+                    <label for="mail">Mail</label>
+                    <input type="email" id="mail" name="mail">
+                </div>
+                <div class="box">
+                    <label for="phone">Teléfono</label>
+                    <input type="number" id="phone" name="phone">
+                </div>
+    
+    
+                <div class="options">
+                    <div>
+                        Motivo de tu consulta?
+                    </div>
+                    <div>
+                        <input type="radio" name="option" id="presupuesto">
+                        <label for="presupuesto">Presupuesto para evento </label>
+                    </div>
+                    <div>
+                        <input type="radio" name="option" id="encargo">
+                        <label for="encargo">Encargo</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="option" id="otro">
+                        <label for="encargo">Otro</label>
+                    </div>
+                </div>
+                <div class="box">
+                    <label for="message">Consulta:</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <div class="box2">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <div>      
+              <div class="cakedraw">
+                <img src="img/cakedraw.png">
+              </div>  
+              <div class="textFooter">Visitá nuestras redes!</div>
+                <a class="network" href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="network" href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a class="network" href="http://www.pinterest.com"target="_blank"><i class="fab fa-pinterest"></i></a>
+              </div>
+            <div class="textFooter">© Copyright - Dulces Momentos - 2021</div>
+            
+          </footer>
+
+    </div>
+
+
+</body>

@@ -1,0 +1,1135 @@
+
+body{
+    background-color: rgb(245, 229, 205);
+    margin: auto;
+   
+}
+
+/*Pagina de inicio*/
+
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header{
+    width: 100%;
+    background-color: rosybrown;
+    color: rgb(245, 229, 205);
+    font-family: 'Sacramento';
+    font-size: 9vw;
+    text-align: center;
+    padding: 1%;
+
+}
+
+.navigation{
+    width: 100%;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item{
+    width: 100%;
+    color:rgb(56, 32, 44);
+    border-bottom: 1px solid rosybrown;
+    font-size: 1vw;
+    font-family: 'Cabin Condensed';
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;    
+    padding: 8px;
+}
+
+.item:link{
+    text-decoration: none;
+}
+
+.item:hover, .item:active {
+    background-color: rosybrown;
+    color: white;
+}
+
+.mainSectionHome{
+    width:100%;
+    margin-bottom: 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color:rgb(56, 32, 44);
+    font-family: 'Sacramento';
+    font-size: 5vw;
+    font-weight: bolder;
+    margin-top: 100px;
+}
+
+h3{
+    width: 45%;
+    color:rgb(56, 32, 44);
+    font-family: 'Cabin Condensed';
+    font-size: 1.5vw;
+    margin-bottom: 3.5%;
+    font-weight: normal;
+}
+
+.fas{
+    font-size: 1.2vw;
+    color: rosybrown;
+}
+
+
+#carousel{
+    margin: auto;
+}
+
+#carousel, .carousel-inner > .carousel-item > img {
+    width: 55vw;
+    height: 35vw;
+}
+
+.seeMore{
+    font-family: 'Cabin Condensed';
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.seeMore a{
+    background-color: rosybrown;
+    padding: 8px;
+    font-size: 1.2vw;
+    animation-name: changeColor;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+}
+
+.footerCarousel{
+    width: 45%;
+    color:rgb(56, 32, 44);
+    font-family: 'Cabin Condensed';
+    font-size: 1.5vw;
+    margin-top: 5%;
+    margin-bottom: 8%;
+    font-weight: normal;
+}
+
+.advertisement{
+    font-family: 'Cabin Condensed';
+    font-size: 1.3vw;
+    color: rgb(56, 32, 44);
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgAds{
+    width: 30%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imgAds img{
+    width: 25%;
+}
+
+
+footer{
+    background-color: rosybrown;
+    width: 100%;
+    text-align: center;
+    font-family: 'Cabin Condensed';
+    color:rgb(56, 32, 44);
+    font-size: 1.1vw;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.fab{
+    margin: 10px;
+}
+
+.network:link, .network:active{
+    color: rgb(56, 32, 44);
+}
+
+.network:hover{
+    color: rgb(245, 229, 205);
+}
+
+.network:visited{
+    color: rgb(56, 32, 44);
+}
+
+.cakedraw img{
+    width: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+/* Página Productos */
+
+.mainSectionProducts{
+    width: 100%;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.secondTitle{
+    width: 100%;
+    font-size: 2.2vw;
+    margin-left: 24px;
+    font-family: 'Cabin Condensed';
+    color:rgb(188, 143, 143);
+}
+
+.mainSectionCakes, .mainSectionPies, .mainSectionCupcakes{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    justify-content: center;
+}
+
+
+.img2:hover{
+    transform: scale(1.1);
+    filter: opacity(.6);    
+}
+
+.product{
+    width: 15%;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nameproduct{
+    margin-top: 10px;
+    font-family: 'Cabin Condensed';
+    color:rgb(56, 32, 44);
+    font-size: 1.1vw;
+}
+
+.img2{
+    width: 100%;
+}
+
+/*Pagina de servicios */
+
+.mainServices{
+    width: 100%;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.secondTitle2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Cabin Condensed';
+    color: rosybrown;
+    font-size: 1.7vw;
+}
+
+.ourServices{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service{
+    width: 100%;
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img3{
+    width: 90%;
+    padding: 40px;
+}
+
+.footerBreakfast{
+    width: 100%;
+    text-align: center;
+}
+
+.contactUs{
+    font-family: 'Cabin Condensed';
+    width: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+
+.contactUs a{
+    background-color: rosybrown;
+    padding: 8px;
+    font-size: 2vw;
+    animation-name: changeColor;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeColor {
+    to{background-color: rgb(56, 32, 44);}
+    to{color: rgb(245, 229, 205);}
+    
+}
+
+.contactUs a:link, .contactUs a:visited, .seeMore a:link, .seeMore a:visited{
+    text-decoration: none;
+    color: rgb(245, 229, 205);
+}
+
+.contactUs a:hover, .contactUs a:active, .seeMore a:hover, .seeMore a:active {
+    background-color:  rgb(56, 32, 44);
+    color: rgb(245, 229, 205);
+}
+
+
+
+/* Pagina ubicacion */
+
+.mainLocation{
+    width: 100%;
+    margin-bottom: 35px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.where div{
+    font-family: 'Cabin Condensed';
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: rosybrown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.location{
+    display: flex;
+}
+
+.location iframe{
+    width: 30vw;
+    height: 25vw;
+    margin: 20px;
+    border: 5px solid rosybrown;
+}
+
+.shipping, .payment{
+    background-color: rosybrown;
+    text-align: center;
+    width:15%;
+    padding: 10px;
+}
+
+.details{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.detailsIcons{
+    font-family: 'Cabin Condensed';
+    color: rgb(56, 32, 44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailsIcons i{
+    color:rgb(56, 32, 44);
+    font-size: 2vw;
+    margin:auto;
+    margin-bottom: 5px;
+    
+}
+
+
+
+/* Pagina contacto */
+
+.mainInfo{
+    width: 100%;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.text{
+    width: 80%;
+    font-size: 1.5vw;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Cabin Condensed';
+    color:rgb(56, 32, 44);
+}
+
+
+.form{
+    width: 45vw;
+    height: 45vw;
+    background-color: rosybrown;    
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.box{
+    width: 100%;
+    font-family: 'Cabin Condensed';
+    font-size: 1.5vw;
+    color:rgb(56, 32, 44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box input{
+    width: 60%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(245, 229, 205);  
+}
+
+.options{
+    width: 100%;
+    font-family: 'Cabin Condensed';
+    font-size: 1.5vw;
+    color:rgb(56, 32, 44);
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.box textarea{
+    width: 80%;
+    height: 150px;
+    background: none;
+    border: 1px solid rgb(245, 229, 205);
+    font-family: 'Cabin Condensed';
+    font-size: 1vw;
+    color:rgb(56, 32, 44);
+}
+
+.box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box2 input{
+    font-family: 'Cabin Condensed';
+    text-transform: uppercase;
+    font-size: 1vw;
+    color:rgb(56, 32, 44);
+    margin-top: 1px;
+}
+
+
+
+/*TABLET*/
+
+@media only screen and (max-width: 880px) {
+
+    /*Pagina Inicio*/
+    header{
+       font-size: 13vw;
+   }
+
+   .navigation{   
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: row;
+   }
+
+   .item{      
+       font-size: 2.5vw;
+
+   }
+
+   h1{        
+       font-size: 9.5vw;
+   }
+
+   h3{
+       width: 95%;;
+       font-size: 3.5vw;
+       margin-bottom: 40px;
+   }
+
+   .fas{
+       font-size: 3vw;;
+   }
+
+   #carousel, .carousel-inner > .carousel-item > img {
+    width: 85vw;
+    height: 65vw;
+    }
+
+    .seeMore a{
+        font-size: 3vw;
+    }
+
+   .footerCarousel{
+       width: 95%;
+       font-size: 3.2vw;
+   }
+
+    .advertisement{
+        font-size: 3vw;
+    }
+
+    .imgAds{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgAds img{
+        width: 30%;
+        margin: 2%;
+    }
+   
+   footer{
+       font-size: 2.5vw;
+       max-height: 100vw;
+   }
+
+   /*Pagina Productos*/
+
+   h1{
+       margin-bottom: 0;
+   }
+     
+   .secondTitle{
+       text-align: center;
+       font-size: 4.5vw;
+       margin-top: 35px;
+ 
+   }    
+
+   .mainSectionCakes, .mainSectionPies, .mainSectionCupcakes{
+       width: 100%;
+       margin-bottom: 35px;
+       display:flex;
+       flex-direction: row;
+       flex-wrap: wrap;  
+       justify-content: space-between;
+   }
+         
+   .product{
+       width: 30%;
+       margin:8px;
+       display: flex;
+       flex-direction: column;
+   }
+   
+   .nameproduct{
+       font-size: 3vw;
+   }
+   
+   .img2{
+       width: 100%;
+   }
+
+   /*Pagina de servicios */
+
+   .secondTitle2{
+       font-size: 4vw;
+       margin-top: 30px;
+
+   }
+
+   .ourServices{
+       margin-bottom: 35px;
+       width: 88%;
+ 
+   }
+
+   .img3{
+       width: 85%;
+   }
+
+   .footerBreakfast{
+       font-size: 3.5vw;
+   }   
+
+   .contactUs a{
+    font-size: 4vw;
+    }
+
+ 
+   /* Pagina ubicacion */
+
+   .location{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .where div{
+       font-size: 4vw;
+       margin-top: 30px;
+   }
+
+   .location iframe{
+       width: 65vw;
+       height: 55vw;
+   }
+
+   .shipping, .payment{
+       width:35%;
+       font-size: 3.5vw;
+   }
+
+   .details{
+       width: 80%;
+       font-size: 3vw;
+   }
+
+      
+   .detailsIcons i{
+       font-size: 5vw;
+       
+   }
+   
+  
+
+   /* Pagina contacto */
+
+   .text{
+       width: 95%;
+       font-size: 3vw;
+       text-align: justify;
+       margin-top: 30px;
+   }
+
+   .form{
+       width: 95vw;
+       height: 100%;
+   }
+
+   .box{
+       margin-top:25px;
+       margin-bottom: 25px;
+       font-size: 3vw;
+   }
+
+   .box input{
+       width: 80%;
+       border-bottom: 1.5px solid rgb(245, 229, 205);  
+   }
+
+   .options{
+       margin-top:25px;
+       margin-bottom: 25px;
+       font-size: 2.5vw;
+
+   }
+
+   .box textarea{
+       width: 90%;
+       height: 250px;
+       font-size: 3vw;
+    
+       
+   }
+
+   .box2{
+       display: flex;
+       justify-content: center;
+   }
+
+   .box2 input{
+       font-size: 2.5vw;
+       margin-bottom: 20px;
+   }
+   
+
+}
+
+/*CELULAR*/
+
+@media only screen and (max-width: 640px) {
+   
+    /*Pagina Inicio*/
+    header{
+        font-size: 14vw;
+    }
+
+    .navigation{   
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .item{      
+        font-size: 2vw;
+
+    }
+
+    h1{        
+        font-size: 4vw;
+        font-weight: normal;
+    }
+
+    h3{
+        width: 95%;;
+        font-size: 3.8vw;
+    }
+
+    .fas{
+        font-size: 2.5vw;;
+    }
+
+    #carousel, .carousel-inner > .carousel-item > img {
+        width: 85vw;
+        height: 65vw;
+    }
+
+    .seeMore a{
+        font-size: 2.5vw;
+        
+    }
+
+
+    .footerCarousel{
+        width: 90%;
+        font-size: 3.5vw;
+    }
+
+    .advertisement{
+        font-size: 3.2vw;
+    }
+    
+    .imgAds{
+        width: 60%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imgAds img{
+        width: 25%;
+        margin: 2%;
+      
+    }
+    
+    footer{
+        font-size: 3vw;
+    }
+
+    .cakedraw img{
+        width: 10%;
+
+    }
+
+    /*Pagina Productos*/
+
+    h1{
+        margin-top: 30px;
+        font-size: 13vw;
+    }
+
+    .secondTitle{
+        font-size: 5vw;
+        text-align: center;
+        margin-left:0;
+        
+    }
+
+    .mainSectionProducts{
+        width: 95%;
+    }
+
+    .mainSectionCakes, .mainSectionPies, .mainSectionCupcakes{
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;  
+    }
+    
+    .product{
+        width: 40vw;
+    }
+
+    .nameproduct{
+        margin-top: 15px;
+        font-size: 3vw;
+    }
+
+    /*Pagina de servicios */
+
+    .secondTitle2{
+        font-size: 5vw;
+        margin-left: 0;
+
+    }
+
+    .ourServices{
+        width: 90vw;
+    }
+
+    .img3{
+        width: 90vw;
+        height: 50vw;
+        padding: 0;
+    }
+
+    .footerBreakfast{
+        font-size: 3.5vw;
+    }   
+
+    .contactUs a{
+        font-size: 3vw;
+    }
+
+    /* Pagina ubicacion */
+
+    .location{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .where div{
+        font-size: 4vw;
+        margin-top:-15px;
+    }
+
+    .location iframe{
+        width: 55vw;
+        height: 45vw;
+    }
+
+    .shipping, .payment{
+        width:45%;
+        font-size: 4vw;
+    }
+
+    .details{
+        width: 80%;
+        font-size: 3vw;
+    }
+
+    .detailsIcons div{
+        margin-bottom: 20px;
+    }
+    
+    .detailsIcons i{
+        font-size: 5vw;
+        
+    }
+
+    /* Pagina contacto */
+
+    .text{
+        width: 95%;
+        font-size: 3.5vw;
+        text-align: justify;
+    }
+
+    .form{
+        width: 95vw;
+        height: 100%;
+    }
+
+    .box{
+        margin-top:25px;
+        margin-bottom: 25px;
+        font-size: 3vw;
+    }
+
+    .box input{
+        width: 80%;
+        border-bottom: 1.5px solid rgb(245, 229, 205);  
+    }
+
+    .options{
+        margin-top:25px;
+        margin-bottom: 25px;
+        font-size: 2.5vw;
+
+    }
+
+    .box textarea{
+        width: 90%;
+        height: 250px;
+        
+    }
+
+    .box2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .box2 input{
+        font-size: 2.5vw;
+    }
+}
+
+/* LAPTOP */
+
+@media only screen and (min-width:881px) and (max-width: 1300px) { 
+
+    /*Pagina Inicio*/
+
+    .mainSectionHome{
+        margin-bottom: 100px;
+    }
+
+    header{
+        font-size: 10vw;
+    }
+
+    .item{      
+        font-size: 1.3vw;
+
+    }
+
+    h1{      
+        margin-top: 50px;  
+        font-size: 7vw;
+    }
+
+    h3{
+        width: 80%;;
+        font-size: 2.3vw;
+        margin-bottom: 40px;
+    }
+
+    .fas{
+        font-size: 1.8vw;;
+    }
+
+    #carousel, .carousel-inner > .carousel-item > img {
+        width: 65vw;
+        height: 45vw;
+    }
+
+    .footerCarousel{
+        width: 80%;
+        font-size: 2.1vw;
+    }
+
+    .advertisement{
+        font-size: 2vw;
+    }
+    
+    .imgAds{
+        width: 60%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .imgAds img{
+        width: 35%;
+        margin: 2%;
+    }
+
+    footer{
+        font-size: 1.8vw;
+    } 
+
+    /*Pagina Productos*/
+
+    h1{
+        font-size: 7vw;
+        margin-bottom: 10px;
+    }
+    
+    
+    .secondTitle{
+        font-size: 3vw;
+        text-align: center;
+        margin-left:0;
+
+    }   
+
+    .mainSectionProducts{
+        margin-bottom: 35px;
+    }
+
+    .mainSectionCakes, .mainSectionPies, .mainSectionCupcakes{
+        width: 100%;
+        margin-bottom: 35px;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;  
+        justify-content: space-around;
+    }
+
+    .product{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nameproduct{
+        font-size: 2vw;
+    }
+
+    .img2{
+        width: 95%;
+    }
+
+    /*Pagina de servicios */
+
+    h1{
+        margin-bottom: 10px;
+    }
+
+    .secondTitle2{
+        font-size: 3vw;
+
+    }
+
+    .ourServices{
+        margin-bottom: 35px;
+        width: 80%;
+
+    }
+
+    .img3{
+        width: 91%;
+    }
+
+    .footerBreakfast{
+        font-size: 1.8vw;
+    }   
+
+    .contactUs a{
+    font-size: 2vw;
+    } 
+
+    /* Pagina ubicacion */
+
+    .mainLocation{
+        margin-bottom: 35px;
+    }
+
+
+    .where div{
+        font-size: 3vw;
+        margin-top: 30px;
+    }
+
+    .location iframe{
+        width: 40vw;
+        height: 35vw;
+    }
+
+    .shipping, .payment{
+        width:35%;
+        font-size: 2vw;
+    }
+
+    .details{
+        width: 60%;
+        font-size: 2vw;
+    }
+
+    
+    .detailsIcons i{
+        font-size: 3vw;
+        
+    } */
+
+    /* Pagina contacto */
+
+    .mainInfo{
+        margin-bottom: 35px;
+    }
+
+    .text{
+        width: 95%;
+        font-size: 2vw;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .form{
+        width: 75vw;
+        height: 100%;
+    }
+
+    .box{
+        margin-top:25px;
+        margin-bottom: 25px;
+        font-size: 1.5vw;
+    }
+
+    .box input{
+        width: 80%;
+        border-bottom: 1.5px solid rgb(245, 229, 205);  
+    }
+
+    .options{
+        margin-top:25px;
+        margin-bottom: 25px;
+        font-size: 1.5vw;
+
+    }
+
+    .box textarea{
+        width: 90%;
+        height: 250px;
+        font-size: 1.5vw;
+
+        
+    }
+
+    .box2 input{
+        font-size: 1.5vw;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+
+
+
